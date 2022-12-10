@@ -1,0 +1,74 @@
+.logo {
+    width: 4%;
+    border-radius: 10px;
+    position: fixed;
+    right: 1vw;
+    top: 2vh;
+}
+
+#home {
+    align-items: center;
+    height: 100%;
+}
+
+#page-wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#header {
+    position: fixed;
+    text-align: center;
+    border-bottom: solid;
+}
+
+#flex-grid {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content-box {
+    flex: 1;
+    flex-direction: row-reverse;
+    border-style: solid;
+    border-radius: 15px;
+    width: 32vw;
+    height: 35vh;
+}
+
+#content1 {
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+}
+
+#content2 {
+    position: absolute;
+    right: 10vw;
+    top: 10vh;
+}
+
+#content3 {
+    position: absolute;
+    left: 10vw;
+    bottom: 10vh;
+}
+
+#content4 {
+    position: absolute;
+    right: 10vw;
+    bottom: 10vh;
+}
+
+
+@media (max-width: 400px) {
+    .flex-grid {
+      display: block;
+    }
+  }
+
+.home-text {
+    text-align: center;
+    justify-content: center;
+}
